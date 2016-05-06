@@ -20,7 +20,7 @@
         <Button
             android:layout_width="82dp"
             android:layout_height="62dp"
-            android:text="Image"
+            android:text="View Image"
             android:onClick="addImageButtonPressed"
             android:id="@+id/ImageButton"
             android:layout_gravity="bottom" />
@@ -28,7 +28,7 @@
         <Button
             android:layout_width="82dp"
             android:layout_height="62dp"
-            android:text="Video"
+            android:text="View Video"
             android:onClick="addVideoButtonPressed"
             android:id="@+id/VideoButton"
             android:layout_gravity="bottom" />
@@ -36,14 +36,14 @@
         <Button
             android:layout_width="82dp"
             android:layout_height="62dp"
-            android:text="Alpha Video"
+            android:text="View Alpha Video"
             android:onClick="addAlphaButtonPressed"
             android:id="@+id/AlphaButton" />
 
         <Button
             android:layout_width="82dp"
             android:layout_height="62dp"
-            android:text="Model"
+            android:text="View Model"
             android:onClick="addModelButtonPressed"
             android:id="@+id/ModelButton"
             android:layout_gravity="bottom" />
