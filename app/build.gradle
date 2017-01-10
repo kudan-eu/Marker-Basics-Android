@@ -17,21 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    sourceSets { main { jni.srcDirs = ['src/main/jni', 'src/main/jniLIbs/'] } }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
-    compile files('src/main/jniLIbs/cardboard.jar')
-    compile files('src/main/jniLIbs/kudanar.jar')
-}
-
-android {
-    sourceSets {
-        main {
-            jni.srcDirs = []
-        }
-    }
+    compile project(':KudanAR')
 }
