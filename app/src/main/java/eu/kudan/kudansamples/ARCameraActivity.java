@@ -45,8 +45,8 @@ public class ARCameraActivity extends ARActivity {
     private void addImageTrackable() {
 
         // Initialise image trackable
-        trackable = new ARImageTrackable("StarWars");
-        trackable.loadFromAsset("spaceMarker.jpg");
+        trackable = new ARImageTrackable("lego");
+        trackable.loadFromAsset("lego.jpg");
 
         // Get instance of image tracker manager
         ARImageTracker trackableManager = ARImageTracker.getInstance();
