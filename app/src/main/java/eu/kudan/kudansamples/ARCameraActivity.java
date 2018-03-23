@@ -50,6 +50,7 @@ public class ARCameraActivity extends ARActivity {
 
         // Get instance of image tracker manager
         ARImageTracker trackableManager = ARImageTracker.getInstance();
+        trackableManager.initialise();
 
         // Add image trackable to image tracker manager
         trackableManager.addTrackable(trackable);
